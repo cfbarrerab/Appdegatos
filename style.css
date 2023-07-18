@@ -1,0 +1,11 @@
+div {background-color: aqua;
+
+}
+
+img{
+    padding: 20px;
+    background-color: chartreuse;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}

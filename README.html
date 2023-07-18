@@ -2,38 +2,42 @@
 <html lang="es">
   <head>
   <title>App de Gatos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&family=VT323&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h2>App de Gatos</h2>
+    <h2 id="titulo-principal">App de Gatos</h2>
     <!-- TODO: Agregar enlace a imágenes de gatos -->
     <main>
       <h3>Imágenes de Gatos</h3>
       <p>Haz clic aquí para ver más <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">imágenes de gatos</a></p>
 
             
-      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja relajado"></a>
+      <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer"><img class="bordes-redondeados" src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja relajado"></a>
       
       <hr>
 
      <h3>Listas de Gatos</h3>
 
-    <div>
+    <div class="contenedor-listas">
       <h3>Cosas que los gatos <em>aman</em></h3>
 
-      <ul>
+      <ul id="listapositiva">
         <li>Menta Gatuna</li>
         <li>Apuntadores Laser</li>
         <li><s>Lasagna</s></li>      
       </ul>
-      <img src="img/lasana.jpg" alt="una foto de lasana con verduras">
+      <img  src="img/lasana.jpg" alt="una foto de lasana con verduras">
 
       <h3>Cosas que los gatos <strong>odian</strong></h3>
-      <ol>
+      <ol id="listanegativa">
         <li>Tratamientos antipulgas</li>
         <li><strong>Truenos</strong></li>
         <li>Otros Gatos</li>
       </ol>
-      <img src="img/truenos.jpeg" alt="Los gatos odian los truenos por su fuerte ruido repentino"> 
+      <img  id="imagendetrueno" src="img/truenos.jpeg" alt="Los gatos odian los truenos por su fuerte ruido repentino"> 
     </div>
 
      <form action="/enviar-respuesta">
